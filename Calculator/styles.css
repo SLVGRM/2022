@@ -2,48 +2,29 @@
   box-sizing: border-box;
   font-style: italic;
   font-family: consolas;
-  margin: 0px;
-  padding: 0px;
-  
+
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-content: center;
   background-color: rgba(113, 23, 165, 0.514);
 }
 
 .main-container {
-  margin: 50px;
-  width: 300px;
-  height: 340px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin: 50px auto 0;
+  width: 309px;
   background: linear-gradient(#3903fcf6, #0b011d);
   border-radius: 15px;
 }
 
-.buttons-container {
-  width: 100%;
-  height: 90%;
-}
-
-.button-row {
-  display: flex;
-  justify-content: space-around;
-}
-
 .btn {
-  height: 56px;
+  height: 66px;
   width: 66px;
-  margin: 2px;
+  margin: 3px;
   border-radius: 16px;
-  font-size: 15pt;
+  font-size: 25px;
   background: linear-gradient(180deg, #f70606, #eaee06);
-  box-shadow: inset 3px 0 1px rgba(12, 12, 12, 0.87), 
-  inset 0 -5px 19px rgba(12, 27, 235, 0.88), 0 0 0 2px rgb(47 46 73 / 75%), 0px 1px 0px rgb(241 240 243 / 40%)
+  box-shadow: inset 3px 0 1px rgba(12, 12, 12, 0.87),
+    inset 0 -5px 19px rgba(12, 27, 235, 0.88), 0 0 0 2px rgb(47 46 73 / 75%), 0px 1px 0px rgb(241 240 243 / 40%)
 }
 
 .btn:hover,
@@ -52,28 +33,17 @@ body {
   cursor: pointer;
 }
 
-.display {
-  width: 98%;
-  height: 10%;
-  margin: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .input {
-  height: 100%;
-  width: 100%;
+  height: 47px;
+  width: 300px;
   text-align: right;
-  font-size: 23pt;
+  font-size: 30px;
   border-radius: 10px;
   background-color: #a7af7c;
-  styl;
+  padding-right: 5px;
+  margin: 4px;
 }
 
-.zero {
-  width: 217px;
-}
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -82,5 +52,21 @@ input::-webkit-inner-spin-button {
 }
 
 .btn:active {
-background: #ff0404;
+  background: #ff0404;
+}
+
+.calculator__container {
+  width: 300px;
+}
+
+table {
+  table-layout: inherit;
+}
+
+.equal {
+  height: 140px;
+}
+
+.zero {
+  width: 142px;
 }
