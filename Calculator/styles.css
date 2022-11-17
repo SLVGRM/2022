@@ -2,6 +2,8 @@
   box-sizing: border-box;
   font-style: italic;
   font-family: consolas;
+  margin: 0px;
+  padding: 0px;
   
 }
 
@@ -65,7 +67,7 @@ body {
   text-align: right;
   font-size: 23pt;
   border-radius: 10px;
-  background-color: rgb(199, 225, 247);
+  background-color: #a7af7c;
   styl;
 }
 
@@ -77,4 +79,8 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.btn:active {
+background: #ff0404;
 }
