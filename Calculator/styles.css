@@ -1,12 +1,15 @@
 * {
   box-sizing: border-box;
+  font-style: italic;
+  font-family: consolas;
+  
 }
 
 body {
   display: flex;
   justify-content: center;
   align-content: center;
-  background-color: rgb(20, 13, 27);
+  background-color: rgba(113, 23, 165, 0.514);
 }
 
 .main-container {
@@ -16,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(#51534ff6, #313331);
+  background: linear-gradient(#3903fcf6, #0b011d);
   border-radius: 15px;
 }
 
@@ -35,8 +38,10 @@ body {
   width: 66px;
   margin: 2px;
   border-radius: 16px;
-  background: linear-gradient(#cccacaf6, #041353);
   font-size: 15pt;
+  background: linear-gradient(180deg, #f70606, #eaee06);
+  box-shadow: inset 3px 0 1px rgba(12, 12, 12, 0.87), 
+  inset 0 -5px 19px rgba(12, 27, 235, 0.88), 0 0 0 2px rgb(47 46 73 / 75%), 0px 1px 0px rgb(241 240 243 / 40%)
 }
 
 .btn:hover,
