@@ -1,18 +1,17 @@
 .dropdown {
+    margin: 16px;
     position: relative;
     display: inline-block;
-    margin: 16px;
 }
 
 .menu-button {
-    display: block;
-    background-color: darkgreen;
+    background-color: darkblue;
     opacity: 0.8;
-    color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    display: block;
 }
 
 .menu-list {
@@ -30,7 +29,7 @@
     color: black;
     padding: 16px;
     text-decoration: none;
-    
+    display: block;
 }
 
 .menu-item:hover {
@@ -38,7 +37,7 @@
 }
 
 .dropdown:hover .menu-list {
-    display: flex;
+    display: block;
 }
 
 .dropdown:hover .menu-button {
